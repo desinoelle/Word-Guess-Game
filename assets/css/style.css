@@ -1,0 +1,42 @@
+/* Stylesheet for Word Guess Game */
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.header {
+    background-color: white;
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+.game {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#instructions {
+    margin-bottom: 30px;
+}
+
+#wins, #guesses-remaining, .currentWord, .lettersGuessed {
+    margin-bottom: 40px;
+}
+
+#current-word {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
