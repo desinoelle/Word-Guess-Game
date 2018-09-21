@@ -12,7 +12,7 @@ body {
     font-family: 'Raleway', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .game {
@@ -28,10 +28,12 @@ body {
 
 #instructions {
     margin-bottom: 30px;
+    font-size: 20px;
 }
 
 #wins, #guesses-remaining, .currentWord, .lettersGuessed {
     margin-bottom: 40px;
+    font-size: 20px;
 }
 
 #current-word {
