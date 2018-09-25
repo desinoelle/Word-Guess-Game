@@ -51,6 +51,10 @@ var gods = [
     "Zeus"
 ]
 
+//Variables for sounds
+var winSound = new Audio("assets/sounds/VOX_VGS_NiceJob.mp3");
+var loseSound = new Audio("assets/sounds/VOX_VGS_Other_G_T.mp3");
+
 //Variables for storing wins, random god, guesses remaining, letters guessed, and blank spaces
 var winsNum = 0;
 var randomGod;
@@ -101,6 +105,7 @@ document.onkeyup = function(event) {
 }
 
 function newGame() {
+
     //Initialize variables and get the random word
     blankSpaces = [];
     guessesNum = 13;
@@ -144,6 +149,7 @@ function compare(userGuess) {
 }
 
 function winOrLose() {
+
     //You win!!
     if (rightGuesses === randomGod.length) {
         //Update wins
@@ -153,11 +159,15 @@ function winOrLose() {
         wins.textContent = "Wins: " + winsNum;
         //Reset game
         reset = true;
+        //Play winSound
+        winSound.play();
     }
 
     //You Lose :(
     if (guessesNum === 0) {
         //Print new message at the top of the screen
         instructions.textContent = "You Lose! Sorry! Press any key to play again!";
+        //Play loseSound
+        loseSound.play();
     }
 }
