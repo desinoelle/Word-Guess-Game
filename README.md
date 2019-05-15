@@ -1,4 +1,5 @@
 # Word-Guess-Game
+https://desinoelle.github.io/Word-Guess-Game/
 # Created and maintained by Desiree Howell
 
 Brief Overview: This project is a word guess game, where the user can use their keyboard to guess characters in the random word that is selected. This game is inspired by my favorite video game Smite, and each of the random words generated is a Smite character. I do NOT own any of the images in this web app. It was created for my own educational and recreational purposes. It really helped me understand how javascript functions within an html file. This project has been my favorite to work on so far in my web development journey. I hope you enjoy it as well!
